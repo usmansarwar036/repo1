@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Usman Fitness Club</title>
+    <link rel="stylesheet" href="/css/css.css">
+    <link rel="stylesheet" href="/website/css/css.css">
+    <style>
+        body {
+            /* font balu bahi */
+            /* font-size: 30px  ; */
+            background-color: #d1d7f1;
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            /* background: url(/game.png); */
+            height: 472px;
+        }
+
+        .header {
+            position: sticky;
+            top: 2px;
+
+        }
+
+        .left {
+            /* margin-top: 20px; */
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            left: 34px;
+            /* top: 18px; */
+            width: 282px;
+            height: 100px;
+        }
+
+        .mid {
+            display: block;
+            width: 50%;
+            /* height: 60px; */
+            margin: 0px auto;
+            /* border: 2px solid blue; */
+
+
+        }
+
+        .right {
+            position: absolute;
+            right: 34px;
+            top: 18px;
+            /* border: 2px solid yellow; */
+            display: inline-block;
+        }
+
+        .navbar {
+
+            display: inline-block;
+            background-color: black;
+            padding: 9px 3px 9px 0px;
+            border-radius: 25px;
+
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 25px;
+
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+            padding-top: 2px;
+            box-sizing: border-box;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.home {
+            text-decoration: underline;
+            color: red;
+        }
+
+        .left span {
+            position: absolute;
+            top: 26px;
+
+            color: red;
+            text-align: center;
+            font-size: 25px;
+            border: 2px solid white;
+            /* border-top: 2px solid white; */
+            /* background-color: blanchedalmond; */
+
+        }
+
+        .left img {
+            height: 72px;
+            width: 66px;
+            display: inline;
+            margin: 0px auto;
+            /* padding: 0px 67px; */
+            /* filter: blur(1px); */
+            /* new */
+            /* margin: auto; */
+            border: 2px solid red;
+            /* border-bottom: 2px solid white; */
+            /* box-sizing: border-box; */
+
+
+        }
+
+        .btn {
+            padding: 3px 7px;
+            margin: 0px 3px;
+            color: grey;
+            background-color: orange;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 15px;
+            cursor: pointer;
+
+
+        }
+
+        .btn:hover {
+            color: rgb(241, 236, 236);
+
+        }
+
+        .container {
+
+            border: 2px solid green;
+            margin: 74px 74px;
+            padding: 60px 33px;
+            border-radius: 20px;
+            width: 33%;
+        }
+
+        .container h1 {
+            color: blue;
+            text-align: center;
+        }
+
+        .form input {
+            border-radius: 10px;
+            font-size: 16px;
+            text-align: center;
+            display: block;
+            width: 257px;
+            padding: 3px;
+            border: 2px solid black;
+            margin: -7px auto;
+        }
+
+        .container button {
+            width: 266px;
+            display: block;
+            margin: 0px auto;
+            padding: 5px;
+        }
+
+        #emailus {}
+
+        footer {
+            position: sticky;
+            bottom: 1px;
+
+
+        }
+
+        #footerspan {
+            background-color: black;
+            display: block;
+            margin: 0px auto;
+            text-align: center;
+            width: 291px;
+            border-radius: 5px;
+
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <header class="header">
+        <!-- for logo -->
+        <div class="left">
+            <img src="/IMG-20200901-WA0023.jpg" alt="">
+            <span class="para">Usman Fitness club</span>
+        </div>
+        <!-- for nav bar-->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="home">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculatorr</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- for button -->
+        <div class="right">
+            <button class="btn">Call US Now</button><button class="btn">Email</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join The best Gym of Multan</h1>
+        <form action="noaction.php" class="form">
+            <input type="text" placeholder="Name eg. Usman"><br>
+            <input type="text" placeholder="Age eg. 18"><br>
+            <input type="text" placeholder="Timing eg. 4PM-6PM"><br>
+            <input type="text" placeholder="Purpose eg. Weight Gain"><br>
+            <input type="text" placeholder="Phone Number eg. 03323561132"><br>
+            <input type="text" placeholder="Email eg. usmansarwar036@gmail.com" id="emailus" autocapitalize="none"><br>
+
+
+        </form>
+
+        <button class="btn">Submit</button>
+    </div>
+    <footer>
+        <span id="footerspan">
+
+            copyright&COPY; usmansarwar036@gmail.com
+        </span>
+    </footer>
+</body>
+
+</html>
